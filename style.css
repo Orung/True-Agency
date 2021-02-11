@@ -62,3 +62,21 @@
     margin-top: 40px;
 }
 
+#process img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#secret-sauce {
+    margin-top: 40px;
+}
+
+#our-secret-sauce {
+    display: flex;
+}
+
+#our-secret-sauce img {
+    width: 120px;
+}
