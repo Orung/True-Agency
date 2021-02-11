@@ -1,6 +1,6 @@
 * {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
     padding-top: 1px;
     padding-bottom: 1px;
 }
@@ -79,4 +79,10 @@
 
 #our-secret-sauce img {
     width: 120px;
+}
+
+#founders-message p {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
 }
