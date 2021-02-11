@@ -35,16 +35,30 @@
     width: 100%;
 }
 
-#services-section {
-    box-shadow: ;
-}
-
 #services-section img {
     width: 350px;
+}
+
+#services {
+    margin-top: 20px;
 }
 
 #service {
     display: flex;
     justify-content: space-between;
+}
+
+#services-line {
+    border-bottom: 1px solid grey; 
+    border-left: 1px solid grey; 
+    border-right: 1px solid grey;
+}
+
+#header {
+    text-align: center;
+}
+
+#process {
+    margin-top: 40px;
 }
 
