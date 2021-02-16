@@ -1,0 +1,12 @@
+@media(max-width: 992px){
+  .d-block-mobile{
+    display: block !important;
+    margin-top: 2rem;
+  }
+  .sm-w-100{
+    width: 100% !important;
+  }
+  .bg-div{
+    display: none;
+  }
+}
