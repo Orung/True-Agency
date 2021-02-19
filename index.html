@@ -4,13 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>True Agency</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
 </head>
 <body>
 
+    <section class="border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand font-weight-bolder text-uppercase text-primary" href="#">True Agency</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#header-section">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Success Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Join Us</a>
+                        </li>
+                        <li class="nav-item pt-0 pb-0 rounded btn btn-outline-primary d-flex align-items-center">
+                            <a class="nav-link  pt-0 pb-0 " href="#">Schedule a call</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </section>
 
+    <section class="">
+        <div class="d-flex d-block-mobile">
+            <div class="text-content sm-w-100 w-50 d-flex align-items-center justify-content-center">
+                <div class="w-90 m-auto">
+                    <h1 class="font-weight-bolder">Need a flexible recruiting solution as you sell and scale projects?</h1>
+                    <p class="mt-3 mb-5">We are here to solve this exact challenge</p>
+                    <button class="btn btn-primary px-4 py-2">Get started</button>
+                </div>
+            </div>
+            <div class="bg-div w-50">
+               <div class="bg-header">
+                    <img src="./images/header-image.png" class="img-fluid pt-5" alt="">
+               </div>
+            </div>
+            
+        </div>
+        <div>
+        </div>
+        
+    </section>
+
+    <section class="container-fluid mt-6">
+        <ul class="d-flex justify-content-around align-items-center icons-img">
+            <li>
+                <img src="./images/icons/lending-club.png" class="w-50" alt="">
+                <p class="d-flex align-items-center">
+                     <img src="./images/icons/barchat.png" class="w-2" alt="">
+                     <span class="text-uppercase">Team grow from 19 to 90 in 14 months</span>
+                 </p>
+             </li>
+            <li>
+                 <img src="./images/icons/sosh.png" class="w-25" alt="">
+                 <p class="d-flex align-items-center">
+                     <img src="./images/icons/barchat.png" class="w-2" alt="">
+                     <span class="text-uppercase">Doubled engineering and product teams</span>
+                 </p>
+             </li>
+            <li>
+                 <img src="./images/icons/true-north.png" class="w-25" alt="">
+                 <p class="d-flex align-items-center">
+                     <img src="./images/icons/barchat.png" class="w-2" alt="">
+                     <span class="text-uppercase">Team Grew from 0 to 80 employees</span>
+                 </p>
+             </li>
+             <li>
+                 <img src="./images/icons/true-north.png" class="w-25" alt="">
+                 <p class="d-flex align-items-center">
+                     <img src="./images/icons/users.png" class="w-1" alt="">
+                     <span class="text-uppercase">Build recruiting process and systems for scale</span>
+                 </p>
+             </li>
+        </ul>
+     </section>
 
 
 
@@ -26,7 +112,7 @@
             </div>
     </section>
 
-    <section id="secret-sauce">
+    <section id="secret-sauce" class="container-fluid">
         <h4>Our Secret Sauce</h4>
         <p>Typically, a customer starts with one recruiter as a test and ramps up as we prove</p>
         <div id="our-secret-sauce">
@@ -49,19 +135,18 @@
                 <img src="./images/famous.png" alt="">
                 <h5>No Substitute</h5>
                 <p id="our-secret-sauce-p">Recruiting only requires a laptop and a phone, but there is no substitute for good communication skills and grit.</p>
-            </div>
-            
-        </div>
 
-        <div style="text-align: center;">    
-        <button id="get-started-button" style="margin-top: 10px;">Get started</button>
+            </div>
         </div>
     </section>
+            
 
-    <section id="founders-message">
+
+
+    <section id="founders-message" class="container-fluid">
         <img src="./images/Image.png" alt="founder image">
-        <div>
-            <h1>Founder’s Message</h1>
+        <div class="p-4">
+            <h1 class="mb-0 ml-0">Founder’s Message</h1>
             <p>This is the recruitment company I wish existed when I was leading talent for tech startups. Sourcing, engaging, and hiring top talent in tight labor markets is not for the faint of heart.</p>
             <p>John Phillips</p>
             <p>Founder</p>
@@ -75,6 +160,48 @@
 
 
 
+
+
+
+    <div class="text-center team-image">
+        <h2 class="font-weight-bold"> Our Team</h2>
+        <p>Do you require some help for our projects: Concept workshop, prototyping,<br> marketing strategy, landing page, UX/UI? </p>
+        <div class="d-flex justify-content-center mb-5 mt-12">
+            <div class="row">
+            <div class="parent">
+                <div class="circle" id="sample-text">
+                </div>
+                <div class="image-holder">
+                <div class="img-cont">
+                    <img data-text="A" src="./images/image-1.jpg" alt="">
+                    <span class="left-text">Max-10+ years of tech recruiting for VC funded startups</span>
+                    <h5 class="amanda">Amanda</h5>
+                </div>
+                <div class="img-cont">
+                    <img data-text="B" src="./images/image-2.jpg" alt="">
+                    <span class="left-text">Max-10+ years of tech recruiting for VC funded startups</span>
+                    <h5 class="amanda">Prisca</h5>
+                </div>
+                <div class="img-cont">
+                    <img data-text="C" src="./images/image-3.jpg" alt="">
+                    <span class="right-text">Max-10+ years of tech recruiting for VC funded startups</span>
+                    <h5 class="amanda">Precillar</h5>
+                </div>
+                <div class="img-cont">
+                    <img data-text="D" src="./images/image-4.jpeg" alt="">
+                    <span class="right-text">Max-10+ years of tech recruiting for VC funded startups</span>
+                    <h5 class="amanda">Kcee</h5>
+                </div>
+                <div class="img-cont">
+                    <img data-text="D" src="./images/image-4.jpeg" alt="">
+                    <span class="left-text">Max-10+ years of tech recruiting for VC funded startups</span>
+                    <h5 class="amanda">Daniel</h5>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
