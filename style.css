@@ -1,65 +1,16 @@
-* {
-    padding-left: 10px;
-    padding-right: 15px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
 
-#logo-navbar {
-    display: flex;
-    justify-content: space-between;
-}
 
-#logo {
-    color: rgba(137, 43, 226, 0.89);
-}
+ /* -- */
 
-#get-started-button {
-    border-radius: 15px;
-    background-color: rgba(137, 43, 226, 0.589);
-    width: 110px;
-    height: 40px;
-    color: white;
-    border: none;
-}
-
-#header-section {
-    display: flex;
-    justify-content: space-between;
-}
-
-#header-section img {
-    width: 500px;
-}
-
-#partnerships img {
-    width: 100%;
-}
-
-#services-section img {
-    width: 350px;
-}
-
-#services {
-    margin-top: 20px;
-}
-
-#service {
-    display: flex;
-    justify-content: space-between;
-}
-
-#services-line {
-    border-bottom: 1px solid grey; 
-    border-left: 1px solid grey; 
-    border-right: 1px solid grey;
-}
-
-#header {
+ #header {
     text-align: center;
 }
 
-#process {
+ #process p {
+    text-align: center; margin-bottom: 30px; margin-top: 10px;
+ }
+
+ #process {
     margin-top: 40px;
 }
 
@@ -70,36 +21,184 @@
     margin-right: auto;
 }
 
-#secret-sauce {
+ #our-secret-sauce-div:hover {
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc; 
+ }
+
+ #our-secret-sauce #our-secret-sauce-p {
+     text-align: left;
+ }
+
+ #secret-sauce {
     margin-top: 40px;
 }
 
 #our-secret-sauce {
     display: flex;
+    justify-content: space-between;
 }
 
 #our-secret-sauce img {
     width: 120px;
+} 
+
+#middle-image {
+    margin: auto;
 }
 
-#founders-message p {
-    position: relative;
-    margin-top: 100px;
+.img-class {
+    display: block;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+#secret-sauce p:nth-of-type(1) {
+    text-align: center;
+}
+
+#secret-sauce h4 {
+    text-align: center;
+}
+
+#our-secret-sauce {
+    margin-top: 30px;
+}
+
+#founders-message{
+    background: linear-gradient(#ecc2e2, #e9abe4); 
+    margin-top: 30px; 
+    display: flex;
+}
+
+#founders-message img {
+    width: 250px; 
+    margin-top: 60px; margin-bottom: 60px; 
     margin-left: 40px;
+}
+
+#founders-message h1 {
+    margin-left: 34px; 
+    margin-top: 40px;
+}
+
+#founders-message p:nth-of-type(1) {
+    margin-top: 20px;
+}
+
+#founders-message p:nth-of-type(2) {
+    margin-top: 10px;
+}
+
+#founders-message p:nth-of-type(3) {
+    margin-top: -18px;
+}
+
+#founders-message p:nth-of-type(4) {
+    position: relative; 
+    margin-top: -10px;
+}
+
+#founders-message p:nth-of-type(5) {
+    margin-top: -17px;
 }
 
 
 
 /* Media Queries */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 667px and down) */
+@media only screen and (max-width: 667px) {
+    #founders-message{
+        background: linear-gradient(#ecc2e2, #e9abe4); 
+        margin-top: 30px; 
+        display: inline-block;
+    }
+    
+    #founders-message img {
+        width: 250px; 
+        margin-top: 60px; margin-bottom: 30px; 
+        margin-left: 40px;
+    }
+    
+    #founders-message h1 {
+        margin-left: 34px; 
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    
+    #founders-message p:nth-of-type(1) {
+        margin-top: 20px;
+    }
+    
+    #founders-message p:nth-of-type(2) {
+        margin-top: 10px;
+    }
+    
+    #founders-message p:nth-of-type(3) {
+        margin-top: -18px;
+    }
+    
+    #founders-message p:nth-of-type(4) {
+        position: relative; 
+        margin-top: -10px;
+    }
+    
+    #founders-message p:nth-of-type(5) {
+        margin-top: -17px;
+    }
+
+    /* secret sauce */
+
+    #our-secret-sauce-div:hover {
+        -moz-box-shadow: 0 0 3px #ccc;
+        -webkit-box-shadow: 0 0 3px #ccc;
+        box-shadow: 0 0 3px #ccc; 
+     }
+    
+     #our-secret-sauce #our-secret-sauce-p {
+         text-align: left;
+     }
+    
+     #secret-sauce {
+        margin-top: 40px;
+    }
+    
+    #our-secret-sauce {
+        display: block;
+        margin-top: 30px;
+    }
+    
+    #our-secret-sauce img {
+        width: 120px;
+    } 
+    
+    .img-class {
+        display: block;
+        margin-left: 25px;
+        margin-right: auto;
+    }
+    
+    #secret-sauce p:nth-of-type(1) {
+        text-align: center;
+    }
+    
+    #secret-sauce h4 {
+        text-align: center;
+    }
+
+    /* services */
+
+    #service {
+        display: block;
+    }
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
