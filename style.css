@@ -161,3 +161,6 @@
     left: 10rem;
     padding: 2px;
   }
+.d-flex{
+  flex-wrap: wrap;
+}

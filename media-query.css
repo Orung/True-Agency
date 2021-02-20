@@ -6,7 +6,83 @@
   .sm-w-100{
     width: 100% !important;
   }
+  .stroke-light{
+    -webkit-text-stroke: 0.9px #232323;
+    color: #ffffff;
+}
   .bg-div{
-    display: none;
+    display: block;
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
   }
+  .icons-img li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-top: 28px;
+}
+.team{
+  margin-top: 2rem;
+}
+.image-holder img, .image-holder{
+  position: static;
+}
+.image-holder img, .image-holder div{
+  position: static;
+}
+.team-image{
+  border-radius: 0%;
+}
+.circle{
+  display: none;
+}
+.left-text, .right-text {
+  position: static;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  right: 53px;
+  padding: 2px;
+  padding: 7px;
+}
+.image-holder div:nth-child(1), 
+.image-holder div:nth-child(2), 
+.image-holderdiv:nth-child(3), 
+.image-holder div:nth-child(4), 
+.image-holder div:nth-child(5){
+  transform: translateX(0%);
+}
+.img-cont {
+    margin-bottom: 2rem;
+}
+.image-holder div {
+  position: static;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: grid;
+  padding: 0 37px;
+}
+.img-cont img{
+  width: 100px;
+  height: 100px;
+}
+.amanda{
+  position: absolute;
+  bottom: auto;
+  left: 146px;
+  font-weight: 900;
+  margin-top: 21px;
+}
+.sm-mt-2{
+  margin-top: 2rem;
+}
+.team-image{
+  padding-bottom: 2rem;
+}
+.image-holder img{
+  position: relative;
+}
 }
