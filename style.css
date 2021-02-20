@@ -1,3 +1,203 @@
+
+
+ /* -- */
+
+ #header {
+    text-align: center;
+}
+
+ #process p {
+    text-align: center; margin-bottom: 30px; margin-top: 10px;
+ }
+
+ #process {
+    margin-top: 40px;
+}
+
+#process img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #our-secret-sauce-div:hover {
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc; 
+ }
+
+ #our-secret-sauce #our-secret-sauce-p {
+     text-align: left;
+ }
+
+ #secret-sauce {
+    margin-top: 40px;
+}
+
+#our-secret-sauce {
+    padding: 32px;
+}
+
+#our-secret-sauce img {
+    width: 120px;
+} 
+
+#middle-image {
+    margin: auto;
+}
+
+.img-class {
+    display: block;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+#secret-sauce p:nth-of-type(1) {
+    text-align: center;
+}
+
+#secret-sauce h4 {
+    text-align: center;
+}
+
+#our-secret-sauce {
+    margin-top: 30px;
+}
+
+#founders-message{
+    background: linear-gradient(#ecc2e2, #e9abe4); 
+    margin-top: 30px; 
+    display: flex;
+}
+
+#founders-message img {
+    width: 250px; 
+    margin-top: 60px; margin-bottom: 60px; 
+    margin-left: 40px;
+}
+
+#founders-message h1 {
+    margin-left: 34px; 
+    margin-top: 40px;
+}
+
+#founders-message p:nth-of-type(1) {
+    margin-top: 20px;
+}
+
+#founders-message p:nth-of-type(2) {
+    margin-top: 10px;
+}
+
+#founders-message p:nth-of-type(3) {
+    margin-top: -18px;
+}
+
+#founders-message p:nth-of-type(4) {
+    position: relative; 
+    margin-top: -10px;
+}
+
+#founders-message p:nth-of-type(5) {
+    margin-top: -17px;
+}
+
+
+
+/* Media Queries */
+
+/* Extra small devices (phones, 667px and down) */
+@media only screen and (max-width: 667px) {
+    #founders-message{
+        background: linear-gradient(#ecc2e2, #e9abe4); 
+        margin-top: 30px; 
+        display: inline-block;
+    }
+    
+    #founders-message img {
+        width: 250px; 
+        margin-top: 60px; margin-bottom: 30px; 
+        margin-left: 40px;
+    }
+    
+    #founders-message h1 {
+        margin-left: 34px; 
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    
+    #founders-message p:nth-of-type(1) {
+        margin-top: 20px;
+    }
+    
+    #founders-message p:nth-of-type(2) {
+        margin-top: 10px;
+    }
+    
+    #founders-message p:nth-of-type(3) {
+        margin-top: -18px;
+    }
+    
+    #founders-message p:nth-of-type(4) {
+        position: relative; 
+        margin-top: -10px;
+    }
+    
+    #founders-message p:nth-of-type(5) {
+        margin-top: -17px;
+    }
+
+    /* secret sauce */
+
+    #our-secret-sauce-div:hover {
+        -moz-box-shadow: 0 0 3px #ccc;
+        -webkit-box-shadow: 0 0 3px #ccc;
+        box-shadow: 0 0 3px #ccc; 
+     }
+    
+     #our-secret-sauce #our-secret-sauce-p {
+         text-align: left;
+     }
+    
+     #secret-sauce {
+        margin-top: 40px;
+    }
+    
+    #our-secret-sauce {
+        display: block;
+        margin-top: 30px;
+    }
+    
+    #our-secret-sauce img {
+        width: 120px;
+    } 
+    
+    .img-class {
+        display: block;
+        margin-left: 25px;
+        margin-right: auto;
+    }
+    
+    #secret-sauce p:nth-of-type(1) {
+        text-align: center;
+    }
+    
+    #secret-sauce h4 {
+        text-align: center;
+    }
+
+    /* services */
+
+    #service {
+        display: block;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
 * {
     padding: 0;
     margin: 0;
